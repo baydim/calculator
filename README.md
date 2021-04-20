@@ -2,12 +2,12 @@
 
 Aplikasi kalkulator dengan flutter
 
+# Design UI
+![alt text](https://github.com/baydim/calculator/blob/master/lib/Group%204%20(1).png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
-
-# Design UI
-![alt text](https://github.com/baydim/calculator/blob/master/lib/Group%204%20(1).png)
 
 A few resources to get you started if this is your first Flutter project:
 
