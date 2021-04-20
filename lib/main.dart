@@ -105,6 +105,7 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Stack(
           children: <Widget>[
@@ -144,7 +145,9 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
                     alignment: Alignment.centerRight,
                     padding: EdgeInsets.fromLTRB(10, 30, 10, 0),
                     child: Text(
-                      result,
+                      result.characters.last == "0"
+                          ? result.split(".")[0]
+                          : result,
                       style: TextStyle(fontSize: 48),
                     ),
                   ),
